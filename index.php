@@ -1,5 +1,5 @@
 <?php
-include_once('functions.php');
+include 'functions.php';
 // Your PHP code here.
 
 // Home Page template below.

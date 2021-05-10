@@ -1,5 +1,5 @@
 <?php
-include_once('private.php');
+include 'private.php';
 
 
 function pdo_connect_mysql() {
