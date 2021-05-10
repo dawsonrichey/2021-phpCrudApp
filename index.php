@@ -1,7 +1,15 @@
 <?php
 include_once('functions.php');
+// Your PHP code here.
 
-pdo_connect_mysql();
+// Home Page template below.
+?>
 
-echo 'testing connection';
+<?=template_header('Home')?>
 
+<div class="content">
+	<h2>Home</h2>
+	<p>Welcome to the home page!</p>
+</div>
+
+<?=template_footer()?>
