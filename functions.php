@@ -3,6 +3,8 @@ include 'private.php';
 
 
 function pdo_connect_mysql() {
+    // Use the database credentials defined in private.php
+    global $db_host, $db_user, $db_pass, $db_name;
     $DATABASE_HOST = $db_host;
     $DATABASE_USER = $db_user;
     $DATABASE_PASS = $db_pass;
