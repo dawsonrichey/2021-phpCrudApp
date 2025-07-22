@@ -33,12 +33,12 @@ function template_header($title) {
                 <a href="read.php"><i class="fas fa-address-book"></i>Contacts</a>
             </div>
         </nav>
-    EOT;
+EOT;
     }
     function template_footer() {
     echo <<<EOT
         </body>
     </html>
-    EOT;
+EOT;
     }
     ?>
